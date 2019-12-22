@@ -23,6 +23,7 @@ async function run() {
     console.log(`Cache written to ${cachePath}`);
   } catch (err) {
     console.error(err);
+    process.exit(1);
   }
 }
 
