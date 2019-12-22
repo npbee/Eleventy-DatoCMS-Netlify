@@ -1,0 +1,11 @@
+# Data fetched from DatoCMS. This is fresh for each build
+_data/cms.js
+
+# Eleventy built site files
+_site
+
+# JS packages
+node_modules
+
+# Secret environment variables
+.env

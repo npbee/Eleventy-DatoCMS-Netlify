@@ -1,0 +1,18 @@
+{
+  "name": "eleventy-datocms-netlify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cms": "node ./scripts/cms.js",
+    "dev": "eleventy --serve",
+    "prebuild": "npm run cms",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}

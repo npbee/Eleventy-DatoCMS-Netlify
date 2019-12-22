@@ -1,0 +1,10 @@
+---
+title: Demo
+---
+
+{% for item in cms.allMenuItems %}
+<p>
+  <strong>Name</strong> {{ item.name }}
+  <strong>Price</strong> {{ item.price }}
+</p>
+{% endfor %}
