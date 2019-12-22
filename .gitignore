@@ -1,6 +1,3 @@
-# Data fetched from DatoCMS. This is fresh for each build
-_data/cms.js
-
 # Eleventy built site files
 _site
 
@@ -9,3 +6,6 @@ node_modules
 
 # Secret environment variables
 .env
+
+# Cached data
+_data/cms.cache.json
